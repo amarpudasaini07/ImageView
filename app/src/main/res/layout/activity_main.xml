@@ -8,10 +8,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_height="match_parent">
 
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <RadioButton
+                android:id="@+id/rdobrad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -19,6 +26,7 @@
                 android:text="Brad Pitt"/>
 
             <RadioButton
+                android:id="@+id/rdojon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -26,17 +34,20 @@
                 android:text="Jon Snow"/>
 
             <RadioButton
+                android:id="@+id/rdospider"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="20dp"
                 android:text="Spiderman"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+        </RadioGroup>
 
+        <ImageView
+            android:id="@+id/actors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
 
     </LinearLayout>
 
