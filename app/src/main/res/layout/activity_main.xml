@@ -8,38 +8,35 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_height="match_parent">
 
-        <RadioGroup
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Brad Pitt"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:text="One"/>
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Jon Snow"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:text="One"/>
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:text="One"/>
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Spiderman"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </RadioGroup>
-
+                android:layout_height="wrap_content"
+                />
+        
 
     </LinearLayout>
 
